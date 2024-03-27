@@ -15,6 +15,8 @@ const tempUrl = 'https://opentdb.com/api.php?amount=10&category=21&difficulty=ea
 const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
+  const [waiting, setWaiting] = useState(true)
+
   return <AppContext.Provider value='hello'>{children}</AppContext.Provider>
 }
 // make sure use
