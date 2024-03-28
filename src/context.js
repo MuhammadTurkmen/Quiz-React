@@ -34,7 +34,7 @@ const AppProvider = ({ children }) => {
 
     }
     else {
-      
+     setWaiting(true) 
     }
     
   }
