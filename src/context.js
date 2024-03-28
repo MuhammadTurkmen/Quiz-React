@@ -38,6 +38,10 @@ const AppProvider = ({ children }) => {
         setWaiting(false)
         setError(false)
       }
+      else {
+          setWaiting(true)
+          setError(true)
+      }
     }
     else {
      setWaiting(true) 
