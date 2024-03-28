@@ -65,7 +65,7 @@ const AppProvider = ({ children }) => {
 
   const checkAnswer = value => {
     if(value) {
-      
+      setCorrect((oldState) =>  oldState + 1)
     }
   }
 
