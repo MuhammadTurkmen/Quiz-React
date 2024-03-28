@@ -13,7 +13,7 @@ function App() {
   if(loading) {
     return <Loading />
   }
-  const {question, incorrect_answers, correct_answer} = questions[0]
+  const {question, incorrect_answers, correct_answer} = questions[index]
   const answers = [...incorrect_answers, correct_answer]
   
   return <main>
