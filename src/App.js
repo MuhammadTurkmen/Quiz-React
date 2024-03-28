@@ -17,7 +17,7 @@ function App() {
   const answers = [...incorrect_answers, correct_answer]
   
   return <main>
-    quiz app
+    <Modal />
   </main>
 }
 
