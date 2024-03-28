@@ -64,7 +64,9 @@ const AppProvider = ({ children }) => {
 
 
   const checkAnswer = value => {
-    
+    if(value) {
+      
+    }
   }
 
   useEffect(() => {
