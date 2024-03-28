@@ -28,7 +28,7 @@ const AppProvider = ({ children }) => {
   const fetchQuestions = async (url) => {
     setLoading(true)
     setWaiting(false)
-    const response = await axios(url).catch(err => console.log(err))
+    const response = await axios(url).catch(err => console.log(err)) 
   }
 
   useEffect(() => {
