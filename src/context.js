@@ -71,7 +71,7 @@ const AppProvider = ({ children }) => {
   }
 
   const openModal = () => {
-
+    setIsModalOpen(true)
   }
 
   useEffect(() => {
