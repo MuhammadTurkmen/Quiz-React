@@ -57,9 +57,8 @@ const AppProvider = ({ children }) => {
         return 0
       }
       else {
-        
+        return index
       }
-      return index
     })
   }
 
