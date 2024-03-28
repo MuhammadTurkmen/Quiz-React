@@ -32,7 +32,9 @@ const AppProvider = ({ children }) => {
 
     if(response) {
       const data = response.data.results
-      if(data.length > 0)
+      if(data.length > 0) {
+        setQuestions(data)
+      }
     }
     else {
      setWaiting(true) 
