@@ -13,6 +13,7 @@ function App() {
   if(loading) {
     return <Loading />
   }
+  console.log(questions[0]);
   return <main>
     quiz app
   </main>
