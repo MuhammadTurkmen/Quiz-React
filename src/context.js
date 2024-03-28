@@ -27,6 +27,7 @@ const AppProvider = ({ children }) => {
 
   const fetchQuestions = async (url) => {
     setLoading(true)
+    setWaiting(false)
   }
   
   
