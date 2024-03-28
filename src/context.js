@@ -31,6 +31,9 @@ const AppProvider = ({ children }) => {
     const response = await axios(url).catch(err => console.log(err)) 
 
     if(response) {
+
+    }
+    else {
       
     }
     
