@@ -67,6 +67,7 @@ const AppProvider = ({ children }) => {
     if(value) {
       setCorrect((oldState) =>  oldState + 1)
     }
+    nextQuestion()
   }
 
   useEffect(() => {
