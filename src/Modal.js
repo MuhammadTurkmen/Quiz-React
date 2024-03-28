@@ -3,7 +3,7 @@ import { useGlobalContext } from './context'
 
 const Modal = () => {
   const {isModaleOpen, closeModle, correct, questions} = useGlobalContext()
-  return <h2>modal component</h2>
+  return <div>modal component</div>
 }
 
 export default Modal
