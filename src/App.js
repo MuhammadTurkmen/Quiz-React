@@ -18,6 +18,7 @@ function App() {
   
   return <main>
     <Modal />
+    <section className='quiz'></section>
   </main>
 }
 
