@@ -32,7 +32,7 @@ const AppProvider = ({ children }) => {
   }
 
   useEffect(() => {
-
+    fetchQuestions(tempUrl)
   }, [])
   
   
