@@ -81,7 +81,7 @@ const AppProvider = ({ children }) => {
   
   return <AppContext.Provider 
   value={{
-    waiting, 
+    waiting,  
     loading, 
     questions, 
     index, 
