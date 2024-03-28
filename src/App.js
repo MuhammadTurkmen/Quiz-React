@@ -32,7 +32,7 @@ function App() {
         </div>
 
       </article>
-      <button className='next-question'></button>
+      <button className='next-question'>next question</button>
     </section>
   </main>
 }
