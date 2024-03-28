@@ -35,6 +35,7 @@ const AppProvider = ({ children }) => {
       if(data.length > 0) {
         setQuestions(data)
         setLoading(false)
+        setWaiting(false)
       }
     }
     else {
