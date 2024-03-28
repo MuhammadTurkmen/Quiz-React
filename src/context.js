@@ -46,7 +46,13 @@ const AppProvider = ({ children }) => {
     else {
      setWaiting(false) 
     }
-    
+  }
+
+
+  const nextQuestion = () => {
+    setIndex((oldIndex) = {
+
+    })
   }
 
   useEffect(() => {
