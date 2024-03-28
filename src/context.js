@@ -56,6 +56,9 @@ const AppProvider = ({ children }) => {
         // openModal
         return 0
       }
+      else {
+        
+      }
       return index
     })
   }
