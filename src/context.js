@@ -28,6 +28,7 @@ const AppProvider = ({ children }) => {
   const fetchQuestions = async (url) => {
     setLoading(true)
     setWaiting(false)
+    const response = axios(url)
   }
   
   
