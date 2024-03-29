@@ -91,7 +91,7 @@ const AppProvider = ({ children }) => {
   }
 
   const handleSubmit = (e) => {
-    
+    e.preventDefault()
   }
   
   
