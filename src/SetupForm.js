@@ -22,7 +22,10 @@ const SetupForm = () => {
             max={50}
           />
         </div>
-        <div className='form-control'></div>
+        {/* category */}
+        <div className='form-control'>
+          <label htmlFor='category'>category</label>
+        </div>
         {error && <p className='error'>
           can't generate questions, please try different options</p>}
         <button type='submit' onClick={handleSubmit} className='submit-btn'>start</button>
