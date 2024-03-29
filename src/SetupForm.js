@@ -24,6 +24,7 @@ const SetupForm = () => {
         </div>
         {error && <p className='error'>
           can't generate questions, please try different options</p>}
+        <button type='submit' onClick={handleSubmit}></button>
       </form>
     </section>
   </main>
