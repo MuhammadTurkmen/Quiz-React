@@ -26,6 +26,9 @@ function App() {
   
   let answers = [...incorrect_answers]
   const tempIndex = Math.floor(Math.random() * 4)
+  if(tempIndex === 3) {
+    answers.push(correct_answer)
+  }
   return <main>
     <Modal />
     <section className='quiz'>
