@@ -25,6 +25,7 @@ const SetupForm = () => {
         {/* category */}
         <div className='form-control'>
           <label htmlFor='category'>category</label>
+          <select name='category'  id='category'
         </div>
         {error && <p className='error'>
           can't generate questions, please try different options</p>}
