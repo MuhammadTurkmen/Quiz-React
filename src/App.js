@@ -26,7 +26,7 @@ function App() {
   
   let answers = [...incorrect_answers]
   const tempIndex = Math.floor(Math.random() * 4)
-  if(tempIndex === 3) {
+  if(tempIndex === 3) { 
     answers.push(correct_answer) 
   }
   else {
