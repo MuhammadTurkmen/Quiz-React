@@ -48,7 +48,7 @@ const SetupForm = () => {
             onChange={handleChange}
           >
             <option value="easy">easy</option>
-            <option value="history">history</option>
+            <option value="medium">medium</option>
             <option value="politics">politics</option>
           </select>
         </div>
