@@ -39,7 +39,7 @@ const SetupForm = () => {
         </div>
         {/* difficulty */}
         <div className='form-control'>
-          <label htmlFor='difficulty'>difficulty</label>
+          <label htmlFor='difficulty'>select difficulty</label>
           <select 
             name='difficulty'  
             id='difficulty' 
