@@ -106,7 +106,10 @@ const AppProvider = ({ children }) => {
     isModalOpen,
     nextQuestion,
     checkAnswer,
-    closeModal
+    closeModal,
+    quiz,
+    handleChange,
+    handleSubmit
   }}
   >{children}</AppContext.Provider>
 }
