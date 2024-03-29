@@ -33,6 +33,8 @@ const SetupForm = () => {
             onChange={handleChange}
           >
             <option value="sports">sports</option>
+            <option value="sports">sports</option>
+            <option value="sports">sports</option>
           </select>
         </div>
         {error && <p className='error'>
