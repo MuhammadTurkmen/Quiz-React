@@ -109,7 +109,7 @@ const AppProvider = ({ children }) => {
     closeModal,
     quiz,
     handleChange,
-    handleSubmit
+    handleSubmit,
   }}
   >{children}</AppContext.Provider>
 }
