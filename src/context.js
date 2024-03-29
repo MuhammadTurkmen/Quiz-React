@@ -87,7 +87,7 @@ const AppProvider = ({ children }) => {
   }
   
   const handleChange = (e) => {
-    console.log(e);
+    const name = e.target.name
   }
 
   const handleSubmit = (e) => {
