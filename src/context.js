@@ -95,6 +95,8 @@ const AppProvider = ({ children }) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     const {amount, category, difficulty} = quiz
+
+    const url = `${API_ENDPOINT}amount=${amount}`
   }
   
   
