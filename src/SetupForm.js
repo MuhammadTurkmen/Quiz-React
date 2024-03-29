@@ -31,7 +31,9 @@ const SetupForm = () => {
             className='form-input'
             value={quiz.category}
             onChange={handleChange}
-          ></select>
+          >
+            <option value="sports">sports</option>
+          </select>
         </div>
         {error && <p className='error'>
           can't generate questions, please try different options</p>}
