@@ -29,7 +29,7 @@ function App() {
   if(tempIndex === 3) { 
     answers.push(correct_answer) 
   }
-  else {
+  else { 
     answers.push(answers[tempIndex])
     answers[tempIndex] = correct_answer
   }
