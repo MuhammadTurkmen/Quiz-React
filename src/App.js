@@ -31,7 +31,7 @@ function App() {
   }
   else { 
     answers.push(answers[tempIndex])
-    answers[tempIndex] = correct_answer 
+    answers[tempIndex] = correct_answer
   }
   return <main>
     <Modal />
