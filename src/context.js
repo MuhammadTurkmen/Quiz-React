@@ -94,6 +94,7 @@ const AppProvider = ({ children }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    const {amount, category, difficulty} = quiz
   }
   
   
