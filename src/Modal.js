@@ -7,7 +7,7 @@ const Modal = () => {
     <div className='modal-content' >
       <h2>congrats!</h2>
       <p>You answered of questions correctly</p>
-      <button></button>
+      <button className='close-btn'></button>
     </div>
   </div>
 }
